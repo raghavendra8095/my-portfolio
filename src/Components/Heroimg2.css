@@ -1,0 +1,42 @@
+.mas{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+.second-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.mas::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+   opacity: 0.6;
+}
+.heading{
+    position: absolute;
+    transform:translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    text-align: center;
+}
+.heroimg h1{
+    font-size: 2.4rem;
+}
+.heroimg p{
+    font-size: 1.9rem;
+    text-align: center;
+}
+@media screen and (max-width:640px) {
+.hero-img h1{
+    font-size: 2rem;
+}    
+} 
+    
